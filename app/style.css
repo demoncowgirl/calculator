@@ -1,0 +1,33 @@
+
+
+.calculator{
+  border: 2px solid black;
+  width: 233px;
+}
+
+.display{
+  text-align: right;
+  background-color: grey;
+  font-weight: bolder;
+  color: yellow;
+  overflow: hidden;
+  /* direction: rtl; */
+}
+
+button{
+  width: 57px;
+  height: 47px;
+}
+
+key.func{
+    background-color:lightblue;
+}
+
+key.num{
+    background-color:darkblue;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
