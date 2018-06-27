@@ -1,33 +1,40 @@
 
-
-.calculator{
-  border: 2px solid black;
-  width: 233px;
+.calculator {
+	border: 2px solid black;
+	width: 236px;
+	background-color: black;
+	margin: auto;
 }
 
-.display{
-  text-align: right;
-  background-color: grey;
-  font-weight: bolder;
-  color: yellow;
-  overflow: hidden;
-  /* direction: rtl; */
+.display {
+	text-align: right;
+	height: 47px;
+	font-size: 45px;
+	background-color: white;
+	overflow: hidden;
+	/*direction: rtl;*/
 }
 
-button{
-  width: 57px;
-  height: 47px;
+.key {
+	width: 57px;
+	height: 47px;
+	margin-right: -2px;
+	font-size: 25px;
+	border-style: groove;
 }
 
-key.func{
-    background-color:lightblue;
+.row {
+	padding: 1px;
 }
 
-key.num{
-    background-color:darkblue;
+.numeric {
+	background-color: darkgray;
 }
 
-.row{
-  display: flex;
-  justify-content: center;
+.func {
+	background-color: orange;
+}
+
+.dud {
+	background-color: #ddd;
 }
